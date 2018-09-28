@@ -13,6 +13,6 @@ namespace ContosoUniversity.Models
         public DateTime EnrollmentDate { get; set; }
 
 
-        public ICollection<Enrollment> Enrollments { get; set; }
+        public ICollection<Enrollment> Enrollments { get; set; } // if you specify ICollection<T>, EF creates a HashSet<T> collection by default
     }
 }

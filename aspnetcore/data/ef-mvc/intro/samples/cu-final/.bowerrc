@@ -1,3 +1,5 @@
 {
-  "directory": "wwwroot/lib"
+  "directory": "wwwroot/lib",
+  "proxy": "http://bcpxy.nycnet:8080"
+
 }

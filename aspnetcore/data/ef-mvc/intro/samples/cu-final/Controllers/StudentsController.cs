@@ -65,6 +65,7 @@ namespace ContosoUniversity.Controllers
             }
 
             int pageSize = 3;
+            //int pageSize = _context.Students.Count();
             return View(await PaginatedList<Student>.CreateAsync(students.AsNoTracking(), page ?? 1, pageSize));
         }
         // GET: Students/Details/5
